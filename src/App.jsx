@@ -1,12 +1,14 @@
 import React from "react";
 import Footer from "./components/Footer";
-import Header from "./components/header";
+import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/NavBar";
 import Promocion from "./components/Promocion";
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <NavBar />
+      <ItemListContainer greeting={"Bienvenidos a VaniBrand"} />
       <Promocion />
       <Footer />
     </div>
